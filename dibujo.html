@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dibujando</title>
   </head>
   <body>
     <h1>Dibujando con Canvas</h1>
-    <p>¿Cuántas líneas quieres?
-      <input type="text" id="texto_lineas"/>
+    <p>
+      <label for="texto_lineas">¿Cuántas líneas quieres?</label>
+      <input type="number" id="texto_lineas" min="1"/>
       <input type="button" value="¡A darle!" id="botonaso"/>
     </p>
     <canvas id="dibujito" width="300" height="300"></canvas>
